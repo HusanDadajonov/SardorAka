@@ -1,0 +1,45 @@
+.eael-filterable-gallery-item-wrap{
+    padding: 10px !important;
+    overflow: hidden !important;
+    cursor: pointer;
+}
+
+.eael-filterable-gallery-item-wrap img{
+    border-radius: 10px !important;
+}
+
+.eael-filterable-gallery-item-wrap *{
+    pointer-events: none;
+}
+
+.modalBg{
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: #000;
+    position:fixed;
+    left: 0;
+    top: 0;
+    opacity: 0.7;
+    visibility: hidden;
+}
+
+.myModal{
+    position:fixed;
+    width: auto;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 200;
+    visibility: hidden;
+}
+
+.elementor-image{
+    width: 200px !important;
+    cursor: pointer;
+}
+
+.elementor-image h1{
+    color: #fff !important;
+}
